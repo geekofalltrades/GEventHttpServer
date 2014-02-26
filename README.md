@@ -9,3 +9,19 @@ The server accepts only GET requests to its very limited 'webroot' resource dire
 Tests are reused (with minor revisions). The conversion to GEvent was done by me.
 
 Tests are passing:
+
+$ python test_http_server.py
+....
+Ran 4 tests in 0.003s
+
+OK
+$ python test_message_parser.py
+..
+Ran 2 tests in 0.000s
+
+OK
+$ python http_server_tests.py
+..
+Ran 2 tests in 0.000s
+
+OK
