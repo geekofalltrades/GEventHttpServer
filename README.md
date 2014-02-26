@@ -7,3 +7,5 @@ GEvent HTTP Server
 This is a revision of the [simple HTTP server](https://github.com/geekofalltrades/HttpServer) to use Python's GEvent.
 The server accepts only GET requests to its very limited 'webroot' resource directory.
 Tests are reused (with minor revisions). The conversion to GEvent was done by me.
+
+Tests are passing:
